@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    box-sizing: border-box;
+}
+.banner {
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+.pin {
+    position: absolute;
+    top: -150px;
+    left: 45%;
+    color: #fff;
+}
+.lines {
+    position: relative;
+    top: 150px;
+    background-color: #ccc;
+}
+.lines::before {
+    content: "";
+    display: block;
+    width: 158px;
+    height: 2px;
+    left: 7%;
+    background-color: #ddd;
+    position: absolute;
+    top: -220px;
+    transform: rotate(120deg);
+}
+.lines::after {
+    content: "";
+    display: block;
+    width: 158px;
+    height: 2px;
+    left: 34%;
+    background-color: #ddd;
+    position: absolute;
+    top: -220px;
+    transform: rotate(239deg);
+}
+.banner:hover {
+    transform: rotate(-10deg);
+}
+.banner img {
+    width:80px;
+    position:absolute;
+    right:-40px;
+    top:-50px;
+    transform: rotate(30deg);
+}
+.molle-regular-italic {
+  font-family: "Molle", cursive;
+  font-weight: 400;
+  font-style: italic;
+  background-color:#b8b8b8;
+}
+.rubik-gemstones-regular {
+  font-family: "Rubik Gemstones", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
