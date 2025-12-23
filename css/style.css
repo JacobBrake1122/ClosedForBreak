@@ -68,3 +68,20 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.closed h1 {
+    background-color: #ccc;
+    width: 300px;
+    padding: 5px 0;
+    margin-bottom: 18px;
+    font-family: "Molle", cursive;
+}
+.closed p, .closed h2{
+    background-color: #fff;
+    width: 300px;
+    font-size: 35px;
+    line-height: .02;
+    font-family: "Rubik Gemstones", system-ui;
+}
+.closed p {
+    font-size: 15px;
+}
